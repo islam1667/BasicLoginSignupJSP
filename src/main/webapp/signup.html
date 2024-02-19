@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="LoginServlet" method="POST">
+            Name:<input type="text" name="uname"/><br/>  
+            Password:<input type="password" name="upwd"/><br/>
+            Retype Password:<input type="password" name="upwd2"/><br/>
+            Email:<input type="email" name="umail"/><br/>  
+            Phone:<input type="number" name="uphone"/><br/>
+            <input type="hidden" value="signup" name="act">
+            <input type="submit" value="signup"/> 
+        </form>
+        <a href="./index.html">I have an account.</a>
+    </body>
+</html>
